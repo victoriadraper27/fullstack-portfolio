@@ -1,0 +1,159 @@
+#qualities {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px
+}
+
+.section-card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 35px rgba(0,0,0,0.3);
+    border-radius: 18px;
+    margin: 20px 0px;
+    text-align: center;
+    z-index: 9;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #9b8dc1;
+}
+
+.quality-card {
+ text-align: center;
+ padding-top: 20px;
+}
+
+.quality-card img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+
+#skills {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.skill-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-card h4 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #9b8dc1;
+}
+
+.skill-card {
+ text-align: center;
+ padding: 20px;
+}
+
+.skill-card img {
+  width: 30px;
+}
+
+
+
+.projects-container {
+  margin: 10%;
+
+}
+
+.project-title {
+  font-size: 42px;
+}
+
+
+@media (max-width: 960px) {
+  .projects-container {
+    width: 75%;
+  }
+}
+@media (max-width: 720px) {
+  .projects-container {
+    width: 75%;
+  }
+}
+@media (max-width: 540px) {
+  .projects-container {
+    width: 75%;
+  }
+}
+
+
+
+.project-card-row {
+  display: flex;
+}
+
+.project-card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.project-card > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-card p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.project-card .project-card-info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+
+.project-card-info .project-card-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+.group-avatars > .avatar-bordered {
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 2;
+    border: white 2px solid;
+  }
+
+  .avatar-bordered:hover {
+      z-index: 3;
+    }
+
+  .avatar-bordered + .avatar-bordered {
+    margin-left: -1rem;
+
+  }

@@ -22,7 +22,7 @@
 .cards h4 {
   font-weight: 400;
   font-size: 18px;
-  color: #9b8dc1;
+  color: #b972a6;
 }
 
 .quality-card {
@@ -48,9 +48,10 @@
 }
 
 .skill-card h4 {
+  margin-top: 5px;
   font-weight: 400;
   font-size: 10px;
-  color: #9b8dc1;
+  color: #b972a6;
 }
 
 .skill-card {
@@ -101,7 +102,7 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .project-card > img {
@@ -111,13 +112,13 @@
 }
 
 .project-card h2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 
 .project-card p {
-  font-size: 12px;
+  font-size: 16px;
   opacity: .7;
   margin: 0;
 }
@@ -136,11 +137,37 @@
   position: absolute;
   right: 16px;
   top: -20px;
-  width: 40px;
+  width: 50px;
 }
 
 
-.group-avatars > .avatar-bordered {
+.group-avatars {
+  position: absolute;
+  right: 20px;
+  top: -2px;
+  width: 150px;
+}
+
+.group-avatars > .project-card-user {
+    position: relative;
+    right: 16px;
+    top: -20px;
+    width: 50px;
+    z-index: 2;
+  }
+
+  .project-card-user:hover {
+      z-index: 3;
+    }
+
+  .project-card-user + .project-card-user {
+    margin-left: -1rem;
+
+  }
+
+
+
+/*.group-avatars > .avatar-bordered {
     width: 40px;
     border-radius: 50%;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
@@ -156,4 +183,4 @@
   .avatar-bordered + .avatar-bordered {
     margin-left: -1rem;
 
-  }
+  }*/

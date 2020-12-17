@@ -1,0 +1,90 @@
+#about {
+padding-top: 50px;
+padding-bottom: 90px;
+display: flex;
+background-color: #f7f7f7;
+margin-bottom: -50px;
+/*margin-top: -50px;*/
+z-index: 5;
+}
+
+.about-container {
+ padding-left: 150px;
+ padding-right: 150px;
+}
+
+.avatar-large-square {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  border: white 5px solid;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.about-left-container {
+  flex: 0 0 50%;
+}
+
+.profile-right {
+  padding-left: 25px;
+}
+
+.profile-left {
+  padding-left: 25px;
+}
+
+.about-title {
+  font-weight: 800;
+  font-size: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.about-title-2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.about-title-3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-title-4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0,0,0,0.6);
+  text-align: justify;
+}
+
+.about-paragraph2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+}
+
+.about-paragraph-special {
+  font-weight: 600;
+  font-size: 15px;
+  color: #4bbc8b;
+}
+
+
+
+.about-right {
+  padding-top: 55px;
+}
+
+.about-link {
+  color: #014a7b;
+}
+
+.about-link:hover {
+  color: #b01633;
+}

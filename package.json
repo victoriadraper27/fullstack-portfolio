@@ -1,7 +1,13 @@
 {
-  "dependencies": {
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1",
-    "slick-carousel": "^1.8.1"
+  "name": "fullstack-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:victoriadraper27/fullstack-portfolio.git",
+  "author": "Victoria Draper <victoria.draper27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }

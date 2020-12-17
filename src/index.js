@@ -1,4 +1,3 @@
-import $ from 'jquery';
 
 window.onload = () => {
   $('.slider').slick({
